@@ -16,7 +16,5 @@ with open("puzzle1input.txt") as f:
                 count+=1
             value = (value + partialTurns) % 100
 
-
-
 print(count)
     
